@@ -1,4 +1,4 @@
-import { FolderCode } from "lucide-react"
+import { FolderCode, MoonIcon } from "lucide-react"
 import Link from "next/link"
 
 const Header = () => {
@@ -38,6 +38,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+          <MoonIcon className="text-purple-700" />
         </div>
       </div>
     </>
