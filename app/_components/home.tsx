@@ -1,9 +1,8 @@
-import { GithubIcon, LinkedinIcon } from "lucide-react"
-import { FaWhatsapp } from "react-icons/fa6"
 import Link from "next/link"
 import { Button } from "./ui/button"
 import { Separator } from "./ui/separator"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
+import { FaGithub, FaLinkedin, FaWhatsappSquare } from "react-icons/fa"
 
 const Home = () => {
   return (
@@ -11,7 +10,7 @@ const Home = () => {
       <section className="flex items-center justify-evenly p-5">
         <div className="flex flex-col gap-8">
           <Link href="https://github.com/ramoncodevale" target="_blank">
-            <GithubIcon
+            <FaGithub
               fontSize={30}
               className="text-purple-700 hover:text-purple-800"
             />
@@ -20,13 +19,13 @@ const Home = () => {
             href="https://www.linkedin.com/in/ramonvalentim88"
             target="_blank"
           >
-            <LinkedinIcon
+            <FaLinkedin
               fontSize={30}
               className="text-purple-700 hover:text-purple-800"
             />
           </Link>
           <Link href="https://wa.me/5511988872804" target="_blank">
-            <FaWhatsapp
+            <FaWhatsappSquare
               fontSize={30}
               className="text-purple-700 hover:text-purple-800"
             />
