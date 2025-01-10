@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const AboutMe = () => {
   return (
-    <section className="p-5">
+    <section className="p-10">
       <h1 className="text-center text-2xl font-bold text-purple-700">
         Sobre Mim
       </h1>
@@ -13,8 +13,8 @@ const AboutMe = () => {
           <Image
             src="computer.svg"
             alt="Image Computer"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
           <Button className="mt-5 flex items-center gap-2 rounded-md bg-purple-700 font-bold text-white hover:bg-purple-800 hover:text-white">
             Apresentação

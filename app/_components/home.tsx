@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaWhatsappSquare } from "react-icons/fa"
 const Home = () => {
   return (
     <>
-      <section className="flex items-center justify-evenly p-5">
+      <section className="flex items-center justify-evenly p-10">
         <div className="flex flex-col gap-8">
           <Link href="https://github.com/ramoncodevale" target="_blank">
             <FaGithub
