@@ -1,26 +1,38 @@
 import { GithubIcon, LinkedinIcon } from "lucide-react"
 import { FaWhatsapp } from "react-icons/fa6"
 import Link from "next/link"
-import Image from "next/image"
 import { Button } from "./ui/button"
+import { Separator } from "./ui/separator"
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 const Home = () => {
   return (
     <>
-      <section className="mt-5 flex items-center justify-evenly p-5">
+      <section className="flex items-center justify-evenly p-5">
         <div className="flex flex-col gap-8">
           <Link href="https://github.com/ramoncodevale" target="_blank">
-            <GithubIcon className="text-purple-700" />
+            <GithubIcon
+              fontSize={30}
+              className="text-purple-700 hover:text-purple-800"
+            />
           </Link>
           <Link
             href="https://www.linkedin.com/in/ramonvalentim88"
             target="_blank"
           >
-            <LinkedinIcon className="text-purple-700" />
+            <LinkedinIcon
+              fontSize={30}
+              className="text-purple-700 hover:text-purple-800"
+            />
           </Link>
           <Link href="https://wa.me/5511988872804" target="_blank">
-            <FaWhatsapp fontSize={25} className="text-purple-700" />
+            <FaWhatsapp
+              fontSize={30}
+              className="text-purple-700 hover:text-purple-800"
+            />
           </Link>
+
+          <Separator className="text-purple-700" />
         </div>
 
         <div className="flex flex-col">
@@ -42,13 +54,10 @@ const Home = () => {
           </Button>
         </div>
 
-        <Image
-          src="programming.svg"
-          alt="Image Programming"
-          width={500}
-          height={500}
-          style={{ objectFit: "contain" }}
-        />
+        <Avatar className="h-33 w-33 border-4 border-purple-700">
+          <AvatarImage src="https://github.com/ramoncodevale.png" />
+          <AvatarFallback>CN</AvatarFallback>
+        </Avatar>
       </section>
     </>
   )

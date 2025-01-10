@@ -1,3 +1,4 @@
+import AboutMe from "./_components/about-me"
 import Header from "./_components/header"
 import Home from "./_components/home"
 
@@ -6,6 +7,7 @@ const Page = () => {
     <div>
       <Header />
       <Home />
+      <AboutMe />
     </div>
   )
 }
