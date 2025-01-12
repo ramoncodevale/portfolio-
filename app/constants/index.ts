@@ -1,3 +1,5 @@
+import { imagesProjects } from "./images"
+
 export const Skills = [
   {
     id: 1,
@@ -58,5 +60,29 @@ export const Skills = [
     name: "Next.js",
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+]
+
+export const Projects = [
+  {
+    id: 1,
+    name: "Projeto FSW Barber",
+    link1: "https://fsw-barber-bk2y.vercel.app/",
+    link2: "https://github.com/ramoncodevale/fsw-barber",
+    image: imagesProjects.Fsw,
+  },
+  {
+    id: 2,
+    name: "Plann.er",
+    link1: "https://plann-er-mocha.vercel.app/",
+    link2: "https://github.com/ramoncodevale/plann.er",
+    image: imagesProjects.Planner,
+  },
+  {
+    id: 3,
+    name: "Countries API",
+    link1: "https://countries-api-q4cl.vercel.app/",
+    link2: "https://github.com/ramoncodevale/countries-api",
+    image: imagesProjects.Countries,
   },
 ]

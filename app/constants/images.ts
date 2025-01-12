@@ -1,3 +1,7 @@
+import Fsw from "../../public/fsw-barber.png"
+import Planner from "../../public/plann.er-projeto.png"
+import Countries from "../../public/countries-api.png"
+
 export const Images = [
   {
     name: "HTML",
@@ -24,3 +28,9 @@ export const Images = [
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
   },
 ]
+
+export const imagesProjects = {
+  Fsw,
+  Planner,
+  Countries,
+}

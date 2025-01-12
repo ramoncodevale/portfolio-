@@ -24,7 +24,7 @@ const Header = () => {
                 className="font-bold text-white hover:text-purple-800"
                 href="/"
               >
-                Sobre Mim
+                Sobre
               </Link>
             </li>
             <li>

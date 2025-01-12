@@ -53,7 +53,7 @@ const Home = () => {
           </Button>
         </div>
 
-        <Avatar className="h-33 w-33 border-4 border-purple-700">
+        <Avatar className="h-[350px] w-[350px] border-4 border-purple-700">
           <AvatarImage src="https://github.com/ramoncodevale.png" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
