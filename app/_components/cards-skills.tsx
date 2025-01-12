@@ -9,13 +9,13 @@ const CardsSkills = () => {
         {Skills.map((skill) => (
           <Card
             key={skill.id}
-            className="flex flex-col items-center justify-center rounded-xl border-4 border-purple-700 bg-card p-10 sm:h-56 sm:w-48 lg:h-64 lg:w-56"
+            className="lg:w-15 sm:w-15 lg:h-15 sm:h-26 flex flex-col items-center justify-center rounded-2xl border-t-4 border-t-purple-700 bg-card p-10"
           >
             <Image
               src={skill.image}
               alt={skill.name}
-              width={84}
-              height={84}
+              width={64}
+              height={64}
               className="rounded-md"
             />
             <p className="mt-3 text-center text-sm font-medium text-white">
