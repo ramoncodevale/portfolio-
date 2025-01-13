@@ -24,7 +24,7 @@ const AboutMe = () => {
           <p className="mt-4 font-bold">Desenvolvedor Front End</p>
         </div>
 
-        <p className="w-full bg-transparent p-4 text-justify text-base font-semibold leading-relaxed text-white shadow-lg md:w-2/3">
+        <p className="w-full bg-transparent p-4 text-justify text-base font-semibold leading-relaxed text-white md:w-2/3">
           Olá, sou Ramon Valentim, desenvolvedor front-end com foco em criar
           interfaces modernas e acessíveis. Trabalho com tecnologias como HTML,
           CSS, JavaScript, React e Next.js, sempre buscando aprimorar meu
