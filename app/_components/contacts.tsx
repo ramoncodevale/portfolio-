@@ -13,15 +13,15 @@ const Contacts = () => {
 
       <Card className="w-full max-w-md bg-card shadow-lg">
         <CardContent>
-          <div className="mt-4 flex items-center gap-2 rounded p-3 transition hover:bg-secondary">
+          <div className="mt-4 flex items-center gap-6 rounded p-3 transition hover:bg-secondary">
             <SiGmail fontSize={30} className="text-purple-700" />
             <span className="text-white">ramonvalentim88@gmail.com</span>
           </div>
-          <div className="mb-4 flex items-center gap-2 rounded p-3 transition hover:bg-secondary">
+          <div className="mb-4 flex items-center gap-6 rounded p-3 transition hover:bg-secondary">
             <BsWhatsapp fontSize={30} className="text-purple-700" />
             <span className="text-white">+55 11 98887-2804</span>
           </div>
-          <div className="mb-4 flex items-center gap-2 rounded p-3 transition hover:bg-secondary">
+          <div className="mb-4 flex items-center gap-6 rounded p-3 transition hover:bg-secondary">
             <SiLinkedin fontSize={30} className="text-purple-700" />
             <Link
               target="_blank"
@@ -31,7 +31,7 @@ const Contacts = () => {
               LinkedIn
             </Link>
           </div>
-          <div className="flex items-center gap-2 rounded p-3 transition hover:bg-secondary">
+          <div className="flex items-center gap-6 rounded p-3 transition hover:bg-secondary">
             <SiGithub fontSize={30} className="text-purple-700" />
             <Link
               className="text-white no-underline"
