@@ -1,11 +1,11 @@
 import { SiGmail, SiLinkedin, SiGithub } from "react-icons/si"
 import { BsWhatsapp } from "react-icons/bs"
 import Link from "next/link"
-import { Card, CardContent } from "./ui/card"
+import { Card, CardContent } from "../ui/card"
 
 const Contacts = () => {
   return (
-    <section className="flex flex-col items-center p-5">
+    <section id="contacts" className="flex flex-col items-center p-5">
       <h1 className="mb-2 text-3xl font-bold text-purple-700">Contatos</h1>
       <h2 className="mb-6 text-lg font-semibold text-white">
         Entre em contato comigo!

@@ -1,13 +1,12 @@
 import Link from "next/link"
-import { Button } from "./ui/button"
-import { Separator } from "./ui/separator"
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { FaGithub, FaLinkedin, FaWhatsappSquare } from "react-icons/fa"
+import { Button } from "../ui/button"
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar"
 
 const Home = () => {
   return (
     <>
-      <section className="flex items-center justify-evenly p-10">
+      <section id="home" className="flex items-center justify-evenly p-10">
         <div className="flex flex-col gap-8">
           <Link href="https://github.com/ramoncodevale" target="_blank">
             <FaGithub
@@ -30,8 +29,6 @@ const Home = () => {
               className="text-purple-700 hover:text-purple-800"
             />
           </Link>
-
-          <Separator className="text-purple-700" />
         </div>
 
         <div className="flex flex-col">

@@ -1,10 +1,10 @@
 import { ArrowRightIcon } from "lucide-react"
-import { Button } from "./ui/button"
 import Image from "next/image"
+import { Button } from "../ui/button"
 
 const AboutMe = () => {
   return (
-    <section className="p-10">
+    <section id="about-me" className="p-10">
       <h1 className="text-center text-2xl font-bold text-purple-700">
         Sobre Mim
       </h1>
