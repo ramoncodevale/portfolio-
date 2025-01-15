@@ -6,7 +6,7 @@ import { Card, CardContent } from "../ui/card"
 const Contacts = () => {
   return (
     <section id="contacts" className="flex flex-col items-center p-5">
-      <h1 className="mb-2 text-3xl font-bold text-purple-700">Contatos</h1>
+      <h1 className="mb-2 text-2xl font-bold text-purple-700">Contatos</h1>
       <h2 className="mb-6 text-lg font-semibold text-white">
         Entre em contato comigo!
       </h2>

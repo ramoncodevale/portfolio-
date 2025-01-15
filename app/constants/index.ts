@@ -32,12 +32,6 @@ export const Skills = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
-    id: 6,
-    name: "TailwindCSS",
-    image:
-      "https://raw.githubusercontent.com/tailwindlabs/tailwindcss/2.x/logos/tailwindcss-logo.svg",
-  },
-  {
     id: 7,
     name: "Node.js",
     image:
